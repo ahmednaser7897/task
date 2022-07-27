@@ -44,8 +44,6 @@ class LoginScreen extends StatelessWidget {
           }
         },
         builder: (context, state) {
-          emailController.text = "ahmed@gmail.com";
-          passController.text = "123456";
           LoginCupit cupit = LoginCupit.get(context);
           return SafeArea(
             child: Directionality(
