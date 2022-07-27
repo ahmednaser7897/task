@@ -54,10 +54,6 @@ class Register extends StatelessWidget {
           }
         },
         builder: (context, state) {
-          nameController.text = "ahmednaser";
-          passController.text = confirmPassController.text = "123456";
-          phoneController.text = "12345634568";
-          emailController.text = "ahmed@gmail.com";
           LoginCupit cupit = LoginCupit.get(context);
           return Directionality(
             textDirection: cupit.langAr ? TextDirection.rtl : TextDirection.ltr,
